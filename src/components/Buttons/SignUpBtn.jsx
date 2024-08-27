@@ -10,7 +10,7 @@ const SignUpBtn = ({ size = "sm", version = "sign-up" }) => {
           ? "bg-[rgba(255,41,25,0.20)] text-textBlack"
           : "text-white bg-[linear-gradient(270deg,#BE0D00_0%,#FF2919_100%)]"
       } `}
-      href="#"
+      href="https://zuvlo.com/auth/register"
     >
       {" "}
       {version === "login" ? "Login" : "Sign Up"}
