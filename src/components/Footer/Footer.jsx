@@ -1,9 +1,9 @@
 import logo from "../../assets/images/main-logo.png";
 
-import { FaInstagramSquare } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
-import { FaRedditSquare } from "react-icons/fa";
-import { FaFacebookSquare } from "react-icons/fa";
+import { FaReddit } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
 
 const Footer = () => {
   const linkStyle = `p-1.5 flex items-center justify-center rounded-lg bg-[#FF2919] `;
@@ -29,7 +29,7 @@ const Footer = () => {
           <div className="flex items-center gap-6 ">
             <a className={linkStyle} href="https://www.instagram.com/realzuvlo/">
               <span className={linkIconStyle}>
-                <FaInstagramSquare />
+                <FaInstagram />
               </span>
             </a>
             <a className={linkStyle} href="https://x.com/realzuvlo">
@@ -39,12 +39,12 @@ const Footer = () => {
             </a>
             <a className={linkStyle} href="https://www.reddit.com/r/zuvlo/">
               <span className={linkIconStyle}>
-                <FaRedditSquare />
+                <FaReddit />
               </span>
             </a>
             <a className={linkStyle} href="https://www.facebook.com/realzuvlo">
               <span className={linkIconStyle}>
-                <FaFacebookSquare />
+                <FaFacebook />
               </span>
             </a>
           </div>
