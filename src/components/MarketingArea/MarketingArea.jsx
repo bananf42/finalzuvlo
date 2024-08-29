@@ -95,7 +95,7 @@ const MarketingArea = () => {
             </svg>
 
             <span className="text-[20px] font-medium leading-8 text-[#2A3062]">
-              Learn more
+              Sign up now
             </span>
           </a>
 
