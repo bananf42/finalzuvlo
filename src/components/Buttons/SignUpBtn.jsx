@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 
-const SignUpBtn = ({ size = "sm", version = "sign-up", url = "https://zuvlo.com/auth/register" }) => {
+const SignUpBtn = ({ size = "sm", version = "sign-up", url = "#" }) => {
   return (
     <a
       className={`rounded-[160px] text-base font-medium leading-5 ${
@@ -10,7 +10,7 @@ const SignUpBtn = ({ size = "sm", version = "sign-up", url = "https://zuvlo.com/
           ? "bg-[rgba(255,41,25,0.20)] text-textBlack"
           : "bg-[linear-gradient(270deg,#BE0D00_0%,#FF2919_100%)] text-white"
       } `}
-      href={https://zuvlo.com/auth/login}
+      href={url}
     >
       {" "}
       {version === "login" ? "Login" : "Sign Up"}
