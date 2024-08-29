@@ -86,7 +86,7 @@ const HeroBanner = () => {
           {/* button wrapper */}
           <div className="flex gap-4">
             <SignUpBtn />
-            <SignUpBtn version="login" />
+            <SignUpBtn version="login" url= "https://zuvlo.com/auth/login"/>
           </div>
         </div>
       </div>
